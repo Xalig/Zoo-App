@@ -10,10 +10,10 @@ class OnBoarding2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onboarding2)
-//        onboarding2button.setOnClickListener { openOnBoarding3() }
+        onboarding2button.setOnClickListener { openOnBoarding3() }
     }
-//    fun openOnBoarding3() {
-//        val intent = Intent(this, OnBoarding3Activity::class.java)
-//        startActivity(intent)
-//    }
+    fun openOnBoarding3() {
+        val intent = Intent(this, OnBoarding3Activity::class.java)
+        startActivity(intent)
+    }
 }
