@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding2Activity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="198dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="113dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logohoriz" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="214dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="114.6dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="114.6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/deliverytime" />
+
+    <Button
+        android:id="@+id/onboarding2button"
+        android:layout_width="455dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="61dp"
+        android:text="ДАЛЕЕ"
+        android:textSize="26sp"
+        app:backgroundTint="@color/r"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="396dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="@font/sfpro_display"
+        android:text="Получить желаемую продукцию прямо на дом в любое удобное\n для Вас время"
+        android:textAlignment="center"
+        android:textColor="#96928B"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="84dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="155dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/group2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
